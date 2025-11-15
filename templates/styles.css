@@ -1,0 +1,22 @@
+.uppernav {
+  width: 100%;
+  height: 50px;
+  background: red;
+}
+
+h2 {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: unset;
+  justify-content: left;
+}
+
+body {
+  margin: unset;
+}
+
+.hamburger {
+  height: 50px;
+  width: 50px;
+}
