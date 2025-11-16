@@ -1,22 +1,168 @@
 .uppernav {
   width: 100%;
   height: 50px;
-  background: red;
+  background-color: #001126;
 }
 
 h2 {
   font-family: "Anton", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin: unset;
-  justify-content: left;
+  margin-top: 8px;
+  margin-left: 5px;
+  letter-spacing: 2px;
+  font-size: xx-large;
+  margin-bottom: 0px;
+  float: left;
+  color: white;
 }
 
 body {
   margin: unset;
+  background-color: #050A10;
 }
 
 .hamburger {
   height: 50px;
   width: 50px;
+  float: left;    
+  margin-left: 8px;
+}
+
+#logo {
+    height: 75%;
+    object-fit: cover;
+    filter: invert(1);
+    margin-left: 5px;
+    margin-top: 4px; cover;
+}
+
+.anton-regular {
+  font-family: "Anton", serif;
+  font-weight: 100;
+  font-style: normal;
+  color: white;
+  letter-spacing: 3px;
+}
+
+.jersey-25-regular {
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.aboutnav {
+  height: 35px;
+  width: 100%;
+  background-color: #040919;
+  align-content: space-around;
+  text-align: center;
+  border-bottom: 2px solid #0088cc;
+}
+
+.about-text {
+  color: #AAAAAA;
+  text-decoration: unset;
+  font-size: small;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a:hover {
+  color: white;
+  transition: 0.50s ease;
+}
+
+.search-container {
+    position: relative;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.search-input {
+    height: 30px;
+    border-radius: 30px;
+    padding-left: 35px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-icon {
+    position: relative;
+    color: #888;
+    right: 240px;
+}
+
+.search-bar {
+  width: fit-content;
+  float: right;
+  padding-top: 8px;
+}
+
+.login-icon {
+  height: 50px;
+  float: right;
+  filter: invert(65%);
+  padding-right: 20px;
+}
+
+.login-icon:hover {
+  filter: invert(1);
+  transition: filter 0.20s ease;
+}
+
+.container {
+  height: fit-content; 
+  width: 100%;
+  display: flex;
+}
+
+.container-left {
+  width: 50%;
+}
+
+.container-title {
+  padding-left: 70px;
+  padding-top: 40px;
+}
+
+.continer-para {
+  padding-left: 70px;
+}
+
+h4 {
+  color: white;
+  line-height: 25px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.container-right {
+}
+
+.index {
+  height: 400px;
+  width: 450px;
+  margin-top: 45px;
+  margin-left: 45px;
+  background-color: #101418;
+  border: 1px solid grey;
+}
+
+.btn {
+  margin-left: 245px;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  letter-spacing: 1px;
+  font-weight: 800;
 }
